@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "inochihouse",
+    "packageName": "me.inochi",
+    "packageFolder": "me/inochi",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "vi",
+    "languages": [
+      "en",
+      "vi"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "NjhiODczMTZkNWU5NzdkOTk0MGVhZGRjZGUzM2M1YjM5MTEyYWE4ZjJhNDhiN2IxMDAwMzViYzQyMTVkZTEzNjQ1YmU4Zjc0NjhhMTA0ZTdhZTA3ZjAwM2JkNGE1ZTVmMTU4OWEzODE0OTM5ZGJmMzJhYzg3NDJjZDVlODdlMjE=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "liamle",
+  "repository-name": "inochi-ng-java"
+}
